@@ -1,0 +1,1430 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>京东列表页</title>
+		<!--引入icon图标-->
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+		<!--引入外部css样式-->
+		<link rel="stylesheet" type="text/css" href="./lby.css">
+		<!--引入js样式-->
+		<script src="jquery-1.8.3.min.js" type="text/javascript"></script>
+		<script src="lby.js"></script>
+	</head>
+
+	<body>
+		<!--整体样式-->
+		<div id="wrap">
+			<!--设置头部-->
+			<div class="header">
+				<div class="h-t">
+					<div class="h-z">
+					<!--	头部导航栏文字-->
+						<div class="h-z-left">
+							<p>送至：北京<i class="icon iconfont">&#xe601;</i></p>
+							<ul class="ejcd">
+								<!--二级菜单-->
+								<li>
+									<a href="#" class="mr">北京</a>
+									<a href="#">山西</a>
+									<a href="#">内蒙古</a>
+									<a href="#">福建</a>
+									<a href="#">江西</a>
+									<a href="#">西藏</a>
+									<a href="#">新疆</a>
+								</li>
+								<li>
+									<a href="#">上海</a>
+									<a href="#">河南</a>
+									<a href="#">江苏</a>
+									<a href="#">湖北</a>
+									<a href="#">四川</a>
+									<a href="#">陕西</a>
+									<a href="#">港澳</a>
+								</li>
+								<li>
+									<a href="#">天津</a>
+									<a href="#">辽宁</a>
+									<a href="#">山东</a>
+									<a href="#">湖南</a>
+									<a href="#">海南</a>
+									<a href="#">甘肃</a>
+									<a href="#">台湾</a>
+								</li>
+								<li>
+									<a href="#">重庆</a>
+									<a href="#">吉林</a>
+									<a href="#">安徽</a>
+									<a href="#">广东</a>
+									<a href="#">贵州</a>
+									<a href="#">青海</a>
+									<a href="#">钓鱼岛</a>
+								</li>
+								<li>
+									<a href="#">河北</a>
+									<a href="#">黑龙江</a>
+									<a href="#">浙江</a>
+									<a href="#">广西</a>
+									<a href="#">云南</a>
+									<a href="#">宁夏</a>
+									<a href="#">海外</a>
+								</li>
+							</ul>
+						</div>
+						<ul class="h-z-right">
+							<li>
+								<a href="#">你好，请登录&nbsp;&nbsp;</a>
+								<a href="#" class="mfzc">免费注册</a>
+							</li>
+							<li>|</li>
+							<li>
+								<a href="#">我的订单</a>
+							</li>
+							<li>|</li>
+							<li class="erjidh">
+								<a href="#">我的京东</a>
+								<i class="icon iconfont">&#xe601;</i>
+							</li>
+							<li>|</li>
+							<li>
+								<a href="#">京东会员</a>
+							</li>
+							<li>|</li>
+							<li>
+								<a href="#">企业采购</a>
+							</li>
+							<li>|</li>
+							<li>
+								<i class="icon iconfont">&#xe6b4;</i>
+								<a href="#">手机京东</a>
+								<i class="icon iconfont">&#xe601;</i>
+							</li>
+							<li>|</li>
+							<li>
+								<a href="#">关注京东</a>
+								<i class="icon iconfont">&#xe601;</i>
+							</li>
+							<li>|</li>
+							<li>
+								<a href="#">客户服务</a>
+								<i class="icon iconfont">&#xe601;</i>
+							</li>
+							<li>|</li>
+							<li>
+								<a href="#">网站导航</a>
+								<i class="icon iconfont">&#xe601;</i>
+							</li>
+						</ul>
+						<div class="wdjd-z">
+							<div class="wdjd-er ">
+								<ul>
+									<li>
+										<a href="#">带订单处理</a>
+									</li>
+									<li>
+										<a href="#">返修退换货</a>
+									</li>
+									<li>
+										<a href="#">降价商品</a>
+									</li>
+								</ul>
+								<!--导航栏的二级菜单-->
+								<ul>
+									<li>
+										<a href="#">消息</a>
+									</li>
+									<li>
+										<a href="#">我的问答</a>
+									</li>
+									<li>
+										<a href="#">我的关注</a>
+									</li>
+								</ul>
+							</div>
+							<div class="wdjd-er1">
+								<ul>
+									<li>
+										<a href="#">我的京豆</a>
+									</li>
+									<li>
+										<a href="#">我的白条</a>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="#">我的优惠卷</a>
+									</li>
+									<li>
+										<a href="#">我的理财</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="h-tp">
+						<div class="h-tp1">
+							<img src="lbyimages/5af8fe0aN6f67354b.jpg">
+						</div>
+					</div>
+					<div class="jd-logo">
+						<div class="jd-logo1">
+							<div class="logo-l">
+								<div class="logo-l1"></div>
+								<div class="zbfl">
+									<span>珠宝</span>
+									<div class="fl">
+									<!--	选项卡-->
+										<p>全部分类<i class="icon iconfont">&#xe601;</i></p>
+										<ul class="erfl">
+											<li>家用电器</li>
+											<li>手机、运营商、数码</li>
+											<li>电脑、办公</li>
+											<li>家居、家具、家装、厨具</li>
+											<li>男装、女装、童装、内衣</li>
+											<li>美妆、个护清洁、宠物</li>
+											<li>女鞋、箱包、钟表、珠宝</li>
+											<li>男鞋、运动、户外</li>
+											<li>房产、汽车、汽车用品</li>
+											<li>母婴、玩具乐器</li>
+											<li>食品、酒类、生鲜、特产</li>
+											<li>艺术、礼品鲜花、农资绿植</li>
+											<li>医药保健、计生情趣</li>
+											<li>图书、音像、电子书</li>
+											<li>机票、酒店、旅游、生活</li>
+											<li>理财、众筹、白条、保险</li>
+											<li>安装、维修、清洗保养</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="ssk">
+								<input type="search" name="search" value="周大福">
+								<input type="button" value="搜索">
+							</div>
+							<div class="logo-right">
+								<i class="icon iconfont">&#xe600;</i>
+								<a href="#">我的购物车</a>
+								<i class="icon iconfont">&#xe633;</i>
+							</div>
+							<div class="logo-center1">
+								<!--链接到详情页-->
+								<a href="../详情页/xqy.html">周生生</a>
+								<a href="#">小叶紫檀</a>
+								<a href="#">蜜蜡</a>
+								<a href="#">投资黄金</a>
+								<a href="#">珍珠吊坠</a>
+								<a href="#">银戒指</a>
+							</div>
+						</div>
+					</div>
+					<div class="zbss">
+						<div class="zbss1">
+							<div class="zbss2">
+								<p>珠宝首饰商品分类</p>
+							</div>
+							<ul>
+								<li>京东服饰</li>
+								<li>美妆馆</li>
+								<li>超市</li>
+								<li>生鲜</li>
+								<li>全球购</li>
+								<li>闪购</li>
+								<li>拍卖</li>
+								<li>金融</li>
+							</ul>
+						</div>
+					</div>
+					<div class="cdlb">
+						<div class="cdlb1">
+							<div class="left-er">
+								<dl class="zb">
+									<dt>珠宝</dt>
+									<dd>
+										<a href="#">黄金吊坠</a>
+										<a href="#">黄金项链</a>
+										<a href="#">珍珠吊坠</a>
+										<a href="#">珍珠项链</a>
+										<a href="#">翡翠玉石</a>
+										<a href="#">投资金</a>
+										<a href="#">黄金戒指</a>
+										<a href="#">钻石</a>
+										<a href="#">彩宝</a>
+									</dd>
+								</dl>
+								<dl class="sp">
+									<dt>饰品</dt>
+									<dd>
+										<a href="#">时尚饰品</a>
+										<a href="#">银手镯</a>
+										<a href="#">小叶紫檀</a>
+										<a href="#">黄花梨</a>
+										<a href="#">施华洛世奇</a>
+										<a href="#">黑曜石</a>
+										<a href="#">银戒指</a>
+										<a href="#">星月</a>
+										<a href="#">石榴石</a>
+										<a href="#">粉水晶手链</a>
+									</dd>
+								</dl>
+								<dl class="tjpp">
+									<dt>推荐品牌</dt>
+									<dd>
+										<a href="#">周大福</a>
+										<a href="#">周生生</a>
+										<a href="#">She's</a>
+										<a href="#">施华洛世奇</a>
+										<a href="#">珂兰</a>
+										<a href="#">COISE</a>
+										<a href="#">源生珠宝</a>
+										<a href="#">千寻海风</a>
+										<a href="#">五昌阁</a>
+										<a href="#">菜百</a>
+										<a href="#">佐梵妮</a>
+										<a href="#">I Do</a>
+										<a href="#">通灵</a>
+										<a href="#">京润</a>
+										<a href="#">名木香府</a>
+										<a href="#">慈元阁</a>
+										<a href="#">石头记</a>
+									</dd>
+								</dl>
+								<dl class="dgrc">
+									<dt>导购热词</dt>
+									<dd>
+										<a href="#">转运珠</a>
+										<a href="#">发饰</a>
+										<a href="#">钻戒</a>
+										<a href="#">投资金条</a>
+										<a href="#">珍珠</a>
+										<a href="#">裸钻</a>
+										<a href="#">黄花梨</a>
+										<a href="#">黑曜石</a>
+										<a href="#">石榴石</a>
+										<a href="#">紫水晶手链</a>
+									</dd>
+								</dl>
+							</div>
+
+							<div id="lunbo">
+								<!--设置显示的图片-->
+								<ul class="img">
+									<li style="display:block"><img src="lbyimages/5af8fdd6N600f3a48.jpg"></li>
+									<li><img src="lbyimages/5afa4c7dNb7414fc9.jpg"></li>
+									<li><img src="lbyimages/5ad1b3f7N3fc3fa79.jpg"></li>
+									<li><img src="lbyimages/5adef00bN5e488445.jpg"></li>
+									<li><img src="lbyimages/5ac31ca7Nadc55483.jpg"></li>
+								</ul>
+								<!--设置圆-->
+								<ul class="num">
+									<li style="background:#fff"></li>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+							<ul class="zbtp">
+								<li><img src="lbyimages/5af2b807Naf9ce73f.jpeg"></li>
+								<li><img src="lbyimages/5ad72244N243b918a.jpeg"></li>
+								<li><img src="lbyimages/5a40901dN88d30113.jpeg"></li>
+								<li><img src="lbyimages/5afba829Ncf83ae45.jpeg"></li>
+							</ul>
+						</div>
+					</div>
+					<div class="dp floor">
+						<div class="dp1">
+							<div class="dp-top">
+								<div class="dp-top-left"></div>
+								<ul class="dp-top-right">
+									<li>
+										<a href="#">菜百首饰</a>
+									</li>
+									<li>
+										<a href="#">特泊儿玉石</a>
+									</li>
+									<li>
+										<a href="#">一搏千金</a>
+									</li>
+									<li>
+										<a href="#">沉鱼落雁</a>
+									</li>
+									<li>
+										<a href="#">施华洛世奇</a>
+									</li>
+									<li>
+										<a href="#">更多</a>
+									</li>
+								</ul>
+							</div>
+							<div class="ht1">
+								<img src="lbyimages/5af8fe45N17b28ac5.jpeg">
+							</div>
+							<div class="ht2">
+								<img src="lbyimages/5afba73dNb98976d6.jpeg">
+							</div>
+							<div class="ht3">
+								<img src="lbyimages/5a7822f1N02d357c3.jpeg">
+							</div>
+							<div class="ht4">
+								<img src="lbyimages/5af2b82cNa3168d7b.png">
+							</div>
+							<div class="ht5">
+								<img src="lbyimages/5ad72367N79f3c00e.jpeg">
+							</div>
+						</div>
+					</div>
+					<div class="hd floor">
+						<div class="hd1">
+							<div class="hd-top">
+								<div class="hd-tu"></div>
+								<div class="hd-t1"></div>
+								<div class="tz">
+									<div class="ty"></div>
+									<span>太阳金店 圣诞礼物黄金心形开口女...</span>
+									<p>￥772.00</p>
+								</div>
+								<div class="tz1">
+									<div class="xl"></div>
+									<span>心浪925银项链女时尚饰品心形吊坠...</span>
+									<p>￥138.00</p>
+								</div>
+								<div class="hd-t2"></div>
+								<div class="hd-t3"></div>
+								<div class="hd-t4"></div>
+								<div class="hd-t5"></div>
+								<div class="hd-t6"></div>
+								<div class="hd-t7"></div>
+							</div>
+						</div>
+					</div>
+					<div class="hj floor">
+						<div class="hj1">
+							<div class="hj-top">
+								<div class="hj-top-left">
+									<img src="lbyimages/547c4151N126067db.jpg">
+								</div>
+								<ul class="hj-top-right">
+									<li>
+										<a href="#">周大福</a>
+									</li>
+									<li>
+										<a href="#">周生生</a>
+									</li>
+									<li>
+										<a href="#">菜百</a>
+									</li>
+									<li>
+										<a href="#">潮宏基</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="hj2">
+							<div class="hjt1">
+								<img src="lbyimages/5af3ca38N3638ae8c.jpeg">
+							</div>
+							<div class="hjt2">
+								<img src="lbyimages/5afa4acbN43298a68.jpeg">
+							</div>
+							<div class="hjt3">
+								<img src="lbyimages/5a3265a6N50df0c28.jpeg">
+							</div>
+							<div class="tz2">
+								<div class="zss">
+									<img src="lbyimages/5506a2fdN8878b14b.jpg">
+								</div>
+								<span>周生生 黄金足金Charme串珠系列皇...</span>
+								<p>￥980.00</p>
+							</div>
+							<div class="tz3">
+								<div class="zdf">
+									<img src="lbyimages/5afba3c2N7c8ecb04.jpg">
+								</div>
+								<span>周大福（CHOW TAI FOOK）时尚皇...</span>
+								<p>￥1182.00</p>
+							</div>
+							<div class="tz4">
+								<div class="sdj">
+									<img src="lbyimages/5a3b7fb9N191012b1.jpg">
+								</div>
+								<span>【圣诞节礼物】周生生 黄金足金侧...</span>
+								<p>￥1241.00</p>
+							</div>
+							<div class="tz5">
+								<div class="zdf1">
+									<img src="lbyimages/5afba3efN120ace17.jpg">
+								</div>
+								<span>周大福（CHOW TAI FOOK）生肖猪...</span>
+								<p>￥817.00</p>
+							</div>
+							<div class="rc">
+								<div class="rc-top">
+									<em>热词</em> "Hot"
+								</div>
+								<div class="hjjs">
+									<a href="#" class="a1">黄金吊坠/项链</a>
+									<a href="#">黄金耳饰</a>
+									<a href="#" class="a2">黄金手链/手镯</a>
+									<a href="#">黄金戒指</a>
+									<a href="#" class="a3">黄金转运珠</a>
+									<a href="#" class="a3">投资金</a>
+								</div>
+							</div>
+							<div class="hjt4">
+								<img src="lbyimages/5a1e2b26N06852fd8.jpeg">
+							</div>
+							<div class="hjt5">
+								<img src="lbyimages/5a6a2bb5N3d172212.jpeg">
+							</div>
+							<div class="hjt6">
+								<img src="lbyimages/5948d9eaN742b30bb.jpeg">
+							</div>
+						</div>
+					</div>
+					<div class="pplogo">
+						<div class="pplogo1">
+							<div class="logo1">
+								<img src="lbyimages/54813f4cNe335eb4d.jpg">
+							</div>
+							<div class="logo2">
+								<img src="lbyimages/55ed0461Ne8d23e74.jpg">
+							</div>
+							<div class="logo3">
+								<img src="lbyimages/547c24e3Nf8a0ff03.jpg">
+							</div>
+							<div class="logo4">
+								<img src="lbyimages/5ac1a286Nd6ee5670.jpeg">
+							</div>
+							<div class="logo5">
+								<img src="lbyimages/59843cc3N89c399fb.jpeg">
+							</div>
+							<div class="logo6">
+								<img src="lbyimages/581af0f5Nd121cf53.jpeg">
+							</div>
+							<div class="logo7">
+								<img src="lbyimages/56601343Nda166f57.jpg">
+							</div>
+						</div>
+					</div>
+					<div class="bj floor">
+						<div class="bj1">
+							<div class="bj-top">
+								<div class="bj-top-left">
+									<img src="lbyimages/547c4164Nfb4c59bd.jpg">
+								</div>
+								<ul class="bj-top-right">
+									<li>
+										<a href="#">周生生</a>
+									</li>
+									<li>
+										<a href="#">周大福</a>
+									</li>
+									<li>
+										<a href="#">千金一诺</a>
+									</li>
+									<li>
+										<a href="#">吉盟</a>
+									</li>
+									<li>
+										<a href="#">老福记</a>
+									</li>
+									<li>
+										<a href="#">更多</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="bj2">
+							<div class="bjt1">
+								<img src="lbyimages/5af8fe82Nb7ba22b5.jpeg">
+							</div>
+							<div class="tzong">
+								<div class="tz6">
+									<div class="zdf2">
+										<img src="lbyimages/5af8fe82Nb7ba22b5.jpeg">
+									</div>
+									<span>周大福【精选】浪漫心心相连【白...</span>
+									<p>￥578.00</p>
+								</div>
+								<div class="tz7">
+									<div class="lf">
+										<img src="lbyimages/5a20b79bNa4c8207d.jpg">
+									</div>
+									<span>六福珠宝 网络专款Starry系列Pt950皇...</span>
+									<p>￥915.00</p>
+								</div>
+								<div class="tz8">
+									<div class="qx">
+										<img src="lbyimages/599c55aeN82a0c427.jpg">
+									</div>
+									<span>【七夕礼物】周生生Pt950铂金项链...</span>
+									<p>￥1940.00</p>
+								</div>
+								<div class="tz9">
+									<div class="zdf3">
+										<img src="lbyimages/5afaa2c5N213f6e00.jpg">
+									</div>
+									<span>周大福 黄铂 心形 黄金白金/PT950</span>
+									<p>￥741.00</p>
+								</div>
+							</div>
+							<div class="bjt2">
+								<img src="lbyimages/5aa781caN78a94e24.jpeg">
+							</div>
+							<div class="bjt3">
+								<img src="lbyimages/5a3265bfN03990b6b.jpeg">
+							</div>
+							<div class="bjt4">
+								<img src="lbyimages/5a25101fN9dd4c4b7.jpeg">
+							</div>
+							<div class="rc1">
+								<div class="rc1-top">
+									<em>热词</em> "Hot"
+								</div>
+								<div class="bjjs">
+									<a href="#" class="a1">铂金 &nbsp;&nbsp;铂金戒指 &nbsp;&nbsp;铂金项链</a>
+									<a href="#">铂金吊坠 &nbsp;&nbsp;铂金对戒</a>
+									<a href="#" class="a3">铂金对戒情侣活口 &nbsp;&nbsp;铂金手链</a>
+									<a href="#">铂金耳钉 &nbsp;&nbsp;明牌</a>
+								</div>
+							</div>
+							<div class="bjt5">
+								<img src="lbyimages/5afa4ae7N50d43196.jpeg">
+							</div>
+							<div class="bjt6">
+								<img src="lbyimages/5826b716Ne9da7cab.jpeg">
+							</div>
+						</div>
+					</div>
+					<div class="pplogo2">
+						<div class="pplogo3">
+							<div class="logo1">
+								<img src="lbyimages/55ed043bN7b72097f.jpg">
+							</div>
+							<div class="logo2">
+								<img src="lbyimages/55ed0a3eNc67504eb.jpg">
+							</div>
+							<div class="logo3">
+								<img src="lbyimages/547859a0N3df7be23.jpg">
+							</div>
+							<div class="logo4">
+								<img src="lbyimages/547859b9N6cfbd222.jpg">
+							</div>
+							<div class="logo5">
+								<img src="lbyimages/547d888bNbb706ee1.jpg">
+							</div>
+							<div class="logo6">
+								<img src="lbyimages/547d8924Nff89d6df.jpg">
+							</div>
+							<div class="logo7">
+								<img src="lbyimages/55934ed8N1f26f551.jpg">
+							</div>
+						</div>
+					</div>
+					<div class="hj floor">
+						<div class="hj1">
+							<div class="hj-top">
+								<div class="hj-top-left">
+									<img src="lbyimages/54914138Ncd13863d.jpg">
+								</div>
+								<ul class="hj-top-right">
+									<li>
+										<a href="#">中国黄金</a>
+									</li>
+									<li>
+										<a href="#">天鑫洋</a>
+									</li>
+									<li>
+										<a href="#">菜百金条</a>
+									</li>
+									<li>
+										<a href="#">零兑金金条</a>
+									</li>
+									<li>
+										<a href="#">金条</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="hj2">
+							<div class="hjt1">
+								<img src="lbyimages/5826b776Nd6c617cb.jpeg">
+							</div>
+							<div class="hjt2">
+								<img src="lbyimages/595d9bfbNd75b2c29.jpeg">
+							</div>
+							<div class="hjt3">
+								<img src="lbyimages/584fcbd9N50835abf.jpeg">
+							</div>
+							<div class="tz2">
+								<div class="zss">
+									<img src="lbyimages/5703ee76Nfbdf2a75.jpg">
+								</div>
+								<span>菜百首饰 Au9999黄金金条 20克生...</span>
+								<p>￥5636.00</p>
+							</div>
+							<div class="tz3">
+								<div class="zdf">
+									<img src="lbyimages/575cd8d6N117718b4.jpg">
+								</div>
+								<span>翠绿 支持回购 Au9999厂标投资金...</span>
+								<p>￥5460.00</p>
+							</div>
+							<div class="tz4">
+								<div class="sdj">
+									<img src="lbyimages/5833a155Nb692c054.jpg">
+								</div>
+								<span>中国黄金 Au9999黄金薄片财富投资...</span>
+								<p>￥2814.00</p>
+							</div>
+							<div class="tz5">
+								<div class="zdf1">
+									<img src="lbyimages/5a32362bN7943f2c5.jpg">
+								</div>
+								<span>菜百首饰 足金Au9999黄金金条 10...</span>
+								<p>￥2818.00</p>
+							</div>
+							<div class="rc">
+								<div class="rc-top">
+									<em>热词</em> "Hot"
+								</div>
+								<div class="hjjs">
+									<a href="#" class="a1">黄金吊坠/项链</a>
+									<a href="#">黄金耳饰</a>
+									<a href="#" class="a2">黄金手链/手镯</a>
+									<a href="#">黄金戒指</a>
+									<a href="#" class="a3">黄金转运珠</a>
+									<a href="#" class="a3">投资金</a>
+								</div>
+							</div>
+							<div class="hjt4">
+								<img src="lbyimages/5810458aN47aa2105.jpeg">
+							</div>
+							<div class="hjt5">
+								<img src="lbyimages/59a8d4ecN588f6444.jpeg">
+							</div>
+							<div class="hjt6">
+								<img src="lbyimages/584fa6cdN6241e3e4.jpeg">
+							</div>
+						</div>
+					</div>
+					<div class="pplogo">
+						<div class="pplogo1">
+							<div class="logo1">
+								<img src="lbyimages/54adfac4N78136918.jpg">
+							</div>
+							<div class="logo2">
+								<img src="lbyimages/547c24e3Nf8a0ff03.jpg">
+							</div>
+							<div class="logo3">
+								<img src="lbyimages/54adfaefN53deae3f.jpg">
+							</div>
+							<div class="logo4">
+								<img src="lbyimages/594506c6N846f2e03.jpeg">
+							</div>
+							<div class="logo5">
+								<img src="lbyimages/54adfb16N3a5b073b.jpg">
+							</div>
+							<div class="logo6">
+								<img src="lbyimages/54adfb8bN537ad7bd.jpg">
+							</div>
+							<div class="logo7">
+								<img src="lbyimages/5a4cabcdN9477518d.jpeg">
+							</div>
+						</div>
+					</div>
+					<div class="bj floor">
+						<div class="bj1">
+							<div class="bj-top">
+								<div class="bj-top-left">
+									<img src="lbyimages/547bffefNcc3be991.jpg">
+								</div>
+								<ul class="bj-top-right">
+									<li>
+										<a href="#">项链</a>
+									</li>
+									<li>
+										<a href="#">银手镯</a>
+									</li>
+									<li>
+										<a href="#">戒指</a>
+									</li>
+									<li>
+										<a href="#">耳钉</a>
+									</li>
+									<li>
+										<a href="#">项链</a>
+									</li>
+									<li>
+										<a href="#">男</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="bj2">
+							<div class="bjt1">
+								<img src="lbyimages/5a5568e1Nb1a96198.jpeg">
+							</div>
+							<div class="tzong">
+								<div class="tz6">
+									<div class="zdf2">
+										<img src="lbyimages/592a3f4cN2e87824b.jpg">
+									</div>
+									<span>佳银坊925银项链女款 时尚吊坠 韩...</span>
+									<p>￥139.00</p>
+								</div>
+								<div class="tz7">
+									<div class="lf">
+										<img src="lbyimages/590ad2a0N71d648fc.jpg">
+									</div>
+									<span>陈银匠 990纯银耳环女款 时尚简约...</span>
+									<p>￥19.90</p>
+								</div>
+								<div class="tz8">
+									<div class="qx">
+										<img src="lbyimages/5934e305N168334ee.jpg">
+									</div>
+									<span>YUKUI（雨葵）925银手链女款水晶...</span>
+									<p>￥129.00</p>
+								</div>
+								<div class="tz9">
+									<div class="zdf3">
+										<img src="lbyimages/58369d42N8b4669aa.jpg">
+									</div>
+									<span>初妆 银手镯 时尚开口足银手镯 女</span>
+									<p>￥336.00</p>
+								</div>
+							</div>
+							<div class="bjt2">
+								<img src="lbyimages/5955fd89N9fa0ffe4.jpeg">
+							</div>
+							<div class="bjt3">
+								<img src="lbyimages/59840f19N3d79f3ce.jpeg">
+							</div>
+							<div class="bjt4">
+								<img src="lbyimages/59840e00Nc3c7e925.png">
+							</div>
+							<div class="rc1">
+								<div class="rc1-top">
+									<em>热词</em> "Hot"
+								</div>
+								<div class="bjjs">
+									<a href="#" class="a1">银手镯 &nbsp;&nbsp;项链女 &nbsp;&nbsp;银项链</a>
+									<a href="#">情侣戒指 &nbsp;&nbsp;宝宝银饰</a>
+									<a href="#" class="a3">宝宝银手镯 &nbsp;&nbsp;纯银项链</a>
+									<a href="#">戒指男款&nbsp;&nbsp;手链</a>
+								</div>
+							</div>
+							<div class="bjt5">
+								<img src="lbyimages/59840e91N2c311023.jpeg">
+							</div>
+							<div class="bjt6">
+								<img src="lbyimages/599ced8dNfa953140.jpeg">
+							</div>
+						</div>
+					</div>
+					<div class="pplogo2">
+						<div class="pplogo3">
+							<div class="logo1">
+								<img src="lbyimages/5506523fNd24fac3f.jpg">
+							</div>
+							<div class="logo2">
+								<img src="lbyimages/566630e9N2410e8ab.jpg">
+							</div>
+							<div class="logo3">
+								<img src="lbyimages/56654206Ndc46efa1.jpg">
+							</div>
+							<div class="logo4">
+								<img src="lbyimages/566630faN9a6574f9.jpg">
+							</div>
+							<div class="logo5">
+								<img src="lbyimages/547d30aeN2ee8d7a2.jpg">
+							</div>
+							<div class="logo6">
+								<img src="lbyimages/5664f753N7e051ac0.jpg">
+							</div>
+							<div class="logo7">
+								<img src="lbyimages/5664f8f7N01fe5245.jpg">
+							</div>
+						</div>
+					</div>
+					<div class="hj floor">
+						<div class="hj1">
+							<div class="hj-top">
+								<div class="hj-top-left">
+									<img src="lbyimages/54816566Nd2fc2798.jpg">
+								</div>
+								<ul class="hj-top-right">
+									<li>
+										<a href="#">玉友</a>
+									</li>
+									<li>
+										<a href="#">印象眸</a>
+									</li>
+									<li>
+										<a href="#">双儿</a>
+									</li>
+									<li>
+										<a href="#">荔尚</a>
+									</li>
+									<li>
+										<a href="#">亿世宝</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="hj2">
+							<div class="hjt1">
+								<img src="lbyimages/5875c770N04198cdc.jpeg">
+							</div>
+							<div class="hjt2">
+								<img src="lbyimages/59c86eb6N9935947f.jpeg">
+							</div>
+							<div class="hjt3">
+								<img src="lbyimages/599befd6N00eb2efe.jpeg">
+							</div>
+							<div class="tz2">
+								<div class="zss">
+									<img src="lbyimages/56f2400fN245812df.jpg">
+								</div>
+								<span>祥祯福 玉佛 和田玉碧玉佛公吊坠...</span>
+								<p>￥2800.00</p>
+							</div>
+							<div class="tz3">
+								<div class="zdf">
+									<img src="lbyimages/5a01106eNda4b9353.jpg">
+								</div>
+								<span>七彩云南 缅甸翡翠手镯A货 女士玉...</span>
+								<p>￥26000.00</p>
+							</div>
+							<div class="tz4">
+								<div class="sdj">
+									<img src="lbyimages/583a52e6Nfa2fafa2.png">
+								</div>
+								<span>【7款可选】珍龙御石和田玉貔貅平...</span>
+								<p>￥268.00</p>
+							</div>
+							<div class="tz5">
+								<div class="zdf1">
+									<img src="lbyimages/5aaa111dN2273bfe5.jpg">
+								</div>
+								<span>缘鹄玉饰 翡翠玉观音吊坠男款女款...</span>
+								<p>￥128.00</p>
+							</div>
+							<div class="rc">
+								<div class="rc-top">
+									<em>热词</em> "Hot"
+								</div>
+								<div class="hjjs">
+									<a href="#" class="a1">手镯/手串&nbsp;&nbsp;戒指</a>
+									<a href="#">挂件/摆件/把件&nbsp;&nbsp;耳饰</a>
+								</div>
+							</div>
+							<div class="hjt4">
+								<img src="lbyimages/5948ef0bN5798264b.jpeg">
+							</div>
+							<div class="hjt5">
+								<img src="lbyimages/59c86ec4N1780ecf0.jpeg">
+							</div>
+							<div class="hjt6">
+								<img src="lbyimages/5948f0c2Nf67c3af8.jpeg">
+							</div>
+						</div>
+					</div>
+					<div class="pplogo">
+						<div class="pplogo1">
+							<div class="logo1">
+								<img src="lbyimages/57677df3N8fabdc74.jpeg">
+							</div>
+							<div class="logo2">
+								<img src="lbyimages/581c63adNb7a787b1.png">
+							</div>
+							<div class="logo3">
+								<img src="lbyimages/581c63cbNe35c923d.jpeg">
+							</div>
+							<div class="logo4">
+								<img src="lbyimages/582046d5N78c91328.jpeg">
+							</div>
+							<div class="logo5">
+								<img src="lbyimages/581c64d6N463b66f5.png">
+							</div>
+							<div class="logo6">
+								<img src="lbyimages/54786702Nfeace49a.jpg">
+							</div>
+							<div class="logo7">
+								<img src="lbyimages/581c65d4Nb737193d.jpeg">
+							</div>
+						</div>
+					</div>
+					<div class="bj floor">
+						<div class="bj1">
+							<div class="bj-top">
+								<div class="bj-top-left">
+									<img src="lbyimages/547c1c76N34551257.jpg">
+								</div>
+								<ul class="bj-top-right">
+									<li>
+										<a href="#">项链</a>
+									</li>
+									<li>
+										<a href="#">银手镯</a>
+									</li>
+									<li>
+										<a href="#">戒指</a>
+									</li>
+									<li>
+										<a href="#">耳钉</a>
+									</li>
+									<li>
+										<a href="#">项链</a>
+									</li>
+									<li>
+										<a href="#">男</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="bj2">
+							<div class="bjt1">
+								<img src="lbyimages/5948da68N89b162ad.jpeg">
+							</div>
+							<div class="tzong">
+								<div class="tz6">
+									<div class="zdf2">
+										<img src="lbyimages/5a07ad23N7a33ed37.jpg">
+									</div>
+									<span>蓝色多瑙河 白18K金钻戒 钻石戒指...</span>
+									<p>￥2688.00</p>
+								</div>
+								<div class="tz7">
+									<div class="lf">
+										<img src="lbyimages/5577c271N436be561.jpg">
+									</div>
+									<span>鳴鑽國際 钻戒 结婚钻石戒指/钻石...</span>
+									<p>￥1999.00</p>
+								</div>
+								<div class="tz8">
+									<div class="qx">
+										<img src="lbyimages/5395230fN6e0bd26e.jpg">
+									</div>
+									<span>佐卡伊 铭刻之吻系列钻戒 钻戒钻石...</span>
+									<p>￥3799.00</p>
+								</div>
+								<div class="tz9">
+									<div class="zdf3">
+										<img src="lbyimages/5948d7b0N6c9b8f97.jpg">
+									</div>
+									<span>Darry Ring戴瑞DR 白18K/铂金六爪</span>
+									<p>￥6279.00</p>
+								</div>
+							</div>
+							<div class="bjt2">
+								<img src="lbyimages/5948f12cN960fa8cd.jpeg">
+							</div>
+							<div class="bjt3">
+								<img src="lbyimages/58f572d9Ne5961c16.jpeg">
+							</div>
+							<div class="bjt4">
+								<img src="lbyimages/5948f132N69f54401.jpeg">
+							</div>
+							<div class="rc1">
+								<div class="rc1-top">
+									<em>热词</em> "Hot"
+								</div>
+								<div class="bjjs">
+									<a href="#" class="a1">钻戒 &nbsp;&nbsp;钻石吊坠 &nbsp;&nbsp;裸钻</a>
+									<a href="#">钻石对戒 &nbsp;&nbsp;婚庆精选</a>
+								</div>
+							</div>
+							<div class="bjt5">
+								<img src="lbyimages/5948f15cN2f3edc61.jpeg">
+							</div>
+							<div class="bjt6">
+								<img src="lbyimages/5948f14cN2cd24b63.jpeg">
+							</div>
+						</div>
+					</div>
+					<div class="pplogo2">
+						<div class="pplogo3">
+							<div class="logo1">
+								<img src="lbyimages/55a4a523Ne533a592.jpg">
+							</div>
+							<div class="logo2">
+								<img src="lbyimages/582bc562N7ecee280.jpeg">
+							</div>
+							<div class="logo3">
+								<img src="lbyimages/547da7c6Nd62621d8.jpg">
+							</div>
+							<div class="logo4">
+								<img src="lbyimages/547da8abNdf5cdbe5.jpg">
+							</div>
+							<div class="logo5">
+								<img src="lbyimages/582bc715N085d7d25.jpeg">
+							</div>
+							<div class="logo6">
+								<img src="lbyimages/591d5493N4d7b2051.jpeg">
+							</div>
+							<div class="logo7">
+								<img src="lbyimages/547da829Ne074f98a.jpg">
+							</div>
+						</div>
+					</div>
+					<div class="hj floor">
+						<div class="hj1">
+							<div class="hj-top">
+								<div class="hj-top-left">
+									<img src="lbyimages/54913b9fNbf1fe0ba.jpg">
+								</div>
+								<ul class="hj-top-right">
+									<li>
+										<a href="#">蜜蜡</a>
+									</li>
+									<li>
+										<a href="#">坦桑石</a>
+									</li>
+									<li>
+										<a href="#">珊瑚</a>
+									</li>
+									<li>
+										<a href="#">碧玺</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="hj2">
+							<div class="hjt1">
+								<img src="lbyimages/5a0409d4N7e0e3867.jpeg">
+							</div>
+							<div class="hjt2">
+								<img src="lbyimages/5948f395N64bf73c8.jpeg">
+							</div>
+							<div class="hjt3">
+								<img src="lbyimages/5948f380N4f506bb1.jpeg">
+							</div>
+							<div class="tz2">
+								<div class="zss">
+									<img src="lbyimages/56271345Nc2b43c2b.jpg">
+								</div>
+								<span>欧采妮彩宝吊坠12克拉紫水晶吊坠...</span>
+								<p>￥1380.00</p>
+							</div>
+							<div class="tz3">
+								<div class="zdf">
+									<img src="lbyimages/rBEbRlNrshUIAAAAAAF0KCWZrwcAAAbewHpK1UAAXRA724.jpg">
+								</div>
+								<span>ENZO心悦彩宝吊坠14K金 托帕石紫...</span>
+								<p>￥1314.00</p>
+							</div>
+							<div class="tz4">
+								<div class="sdj">
+									<img src="lbyimages/574fd1adN69830544.jpg">
+								</div>
+								<span>爱宝莉 18K金  碧玺 红宝石 彩宝 戒...</span>
+								<p>￥2199.00</p>
+							</div>
+							<div class="tz5">
+								<div class="zdf1">
+									<img src="lbyimages/58fed15eNa76ae46e.jpg">
+								</div>
+								<span>ENZO珠宝 圆形吊坠 生辰石黄18K金...</span>
+								<p>￥679.00</p>
+							</div>
+							<div class="rc">
+								<div class="rc-top">
+									<em>热词</em> "Hot"
+								</div>
+								<div class="hjjs">
+									<a href="#" class="a1">彩宝手串&nbsp;&nbsp;红宝石&nbsp;&nbsp;蓝宝石</a>
+									<a href="#">祖母绿&nbsp;&nbsp;坦桑石&nbsp;&nbsp;琥珀</a>
+									<a href="#">碧玺戒指&nbsp;&nbsp;蜜蜡吊坠</a>
+								</div>
+							</div>
+							<div class="hjt4">
+								<img src="lbyimages/5948f36aN0860ef5f.jpeg">
+							</div>
+							<div class="hjt5">
+								<img src="lbyimages/5948f4fbNb86b7ebe.jpeg">
+							</div>
+							<div class="hjt6">
+								<img src="lbyimages/5948f480Nddad19d0.jpeg">
+							</div>
+						</div>
+					</div>
+					<div class="pplogo">
+						<div class="pplogo1">
+							<div class="logo1">
+								<img src="lbyimages/54adfedaN8234a986.jpg">
+							</div>
+							<div class="logo2">
+								<img src="lbyimages/5574ff05N373c7a89.jpg">
+							</div>
+							<div class="logo3">
+								<img src="lbyimages/56189e94Nd7f4850f.jpg">
+							</div>
+							<div class="logo4">
+								<img src="lbyimages/5937dbf9N2846df06.jpeg">
+							</div>
+							<div class="logo5">
+								<img src="lbyimages/56189ea2N301b639a.jpg">
+							</div>
+							<div class="logo6">
+								<img src="lbyimages/561dfbacN1ff71d2e.jpg">
+							</div>
+							<div class="logo7">
+								<img src="lbyimages/56261434Nd206cb20.jpg">
+							</div>
+						</div>
+					</div>
+					<div class="bj floor">
+						<div class="bj1">
+							<div class="bj-top">
+								<div class="bj-top-left">
+									<img src="lbyimages/548eba93N774f2380.jpg">
+								</div>
+								<ul class="bj-top-right">
+									<li>
+										<a href="#">源生</a>
+									</li>
+									<li>
+										<a href="#">黛米</a>
+									</li>
+									<li>
+										<a href="#">澜润珍珠</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="bj2">
+							<div class="bjt1">
+								<img src="lbyimages/5860e6fcNffd73a46.jpeg">
+							</div>
+							<div class="tzong">
+								<div class="tz6">
+									<div class="zdf2">
+										<img src="lbyimages/556d6e40N08e058d0.jpg">
+									</div>
+									<span>源生珠宝 大溪地黑珍珠吊坠项链不...</span>
+									<p>￥798.00</p>
+								</div>
+								<div class="tz7">
+									<div class="lf">
+										<img src="lbyimages/56b59a0fN94103ed0.jpg">
+									</div>
+									<span>源生珠宝 大溪地黑珍珠耳环 正圆强...</span>
+									<p>￥1580.00</p>
+								</div>
+								<div class="tz8">
+									<div class="qx">
+										<img src="lbyimages/56e959c5N7ad570ec.jpg">
+									</div>
+									<span>黛米珠宝 淡水珍珠项链 近正圆强光...</span>
+									<p>￥299.00</p>
+								</div>
+								<div class="tz9">
+									<div class="zdf3">
+										<img src="lbyimages/56305f67Na6ee897a.jpg">
+									</div>
+									<span>京润珍珠 简爱 淡水珍珠项链 珍珠</span>
+									<p>￥179.00</p>
+								</div>
+							</div>
+							<div class="bjt2">
+								<img src="lbyimages/5948f2a3N2a25ccfb.jpeg">
+							</div>
+							<div class="bjt3">
+								<img src="lbyimages/5948f332N87d1312f.jpeg">
+							</div>
+							<div class="bjt4">
+								<img src="lbyimages/5948f2bdNed52181b.jpeg">
+							</div>
+							<div class="rc1">
+								<div class="rc1-top">
+									<em>热词</em> "Hot"
+								</div>
+								<div class="bjjs">
+									<a href="#">海水珍珠 &nbsp;&nbsp;淡水珍珠 &nbsp;&nbsp;珍珠戒指</a>
+									<a href="#">珍珠吊坠 &nbsp;&nbsp;毛衣链珍珠</a>
+									<a href="#">珍珠耳钉</a>
+								</div>
+							</div>
+							<div class="bjt5">
+								<img src="lbyimages/5948f34eNe9d4db2d.jpeg">
+							</div>
+							<div class="bjt6">
+								<img src="lbyimages/5948f323N4f2aa8f6.jpeg">
+							</div>
+						</div>
+					</div>
+					<div class="pplogo2">
+						<div class="pplogo3">
+							<div class="logo1">
+								<img src="lbyimages/582bc1d6N28cef1cc.jpeg">
+							</div>
+							<div class="logo2">
+								<img src="lbyimages/5723051fN4f482ac8.jpeg">
+							</div>
+							<div class="logo3">
+								<img src="lbyimages/572304fbNebfb2f09.png">
+							</div>
+							<div class="logo4">
+								<img src="lbyimages/57230852N1f11722b.jpeg">
+							</div>
+							<div class="logo5">
+								<img src="lbyimages/57a01abcN486d4589.jpeg">
+							</div>
+							<div class="logo6">
+								<img src="lbyimages/591d2f3cN6a7adf37.jpeg">
+							</div>
+							<div class="logo7">
+								<img src="lbyimages/57230531N8b4e732c.jpeg">
+							</div>
+						</div>
+					</div>
+					<div class="th">
+						<div class="th1">
+							<strong>特惠专区</strong>
+						</div>
+					</div>
+					<div class="tht">
+						<div class="tht1">
+							<!--瀑布流-->
+							<ul class="pbl"></ul>
+							<ul class="pbl"></ul>
+							<ul class="pbl"></ul>
+							<ul class="pbl"></ul>
+							<ul class="pbl"></ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer">
+					<!--底部信息-->
+					<div class="footer-middle">
+						<dl>
+							<dt>购物指南</dt>
+							<dd>
+								<a href="">购物流程</a>
+								<a href="">会员介绍</a>
+								<a href="">生活旅行</a>
+								<a href="">常见问题</a>
+								<a href="">大家电</a>
+								<a href="">联系客服</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>配送方式</dt>
+							<dd>
+								<a href="">上门自提</a>
+								<a href="">211限时达</a>
+								<a href="">配送服务查询</a>
+								<a href="">配送费收取标准</a>
+								<a href="">海外配送</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>支付方式</dt>
+							<dd>
+								<a href="">货到付款</a>
+								<a href="">在线支付</a>
+								<a href="">分期付款</a>
+								<a href="">邮局汇款</a>
+								<a href="">公司转账</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>售后服务</dt>
+							<dd>
+								<a href="">售后政策</a>
+								<a href="">价格保护</a>
+								<a href="">退款说明</a>
+								<a href="">天猫返修/退换货</a>
+								<a href="">取消订单</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>特色服务</dt>
+							<dd>
+								<a href="">夺宝岛</a>
+								<a href="">DIV装机</a>
+								<a href="">延保服务</a>
+								<a href="">京东E卡</a>
+								<a href="">京东通讯</a>
+								<a href="">京东JD+</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>京东自营覆盖区县</dt>
+							<dd>
+								<!--<a href="">京东已向全国2661个区县提供自营配送服务，支持货到付款、POS机刷卡和售后上门服务。</a>-->
+								<a href="">查看详情></a>
+							</dd>
+						</dl>
+					</div>
+					<div class="foot-bottom">
+						<div class="fb-top">
+							<ul>
+								<li>关于我们</li>
+								<li>联系我们</li>
+								<li>联系客服</li>
+								<li>合作招商</li>
+								<li>商家帮助</li>
+								<li>营销中心</li>
+								<li>手机京东</li>
+								<li>友情链接</li>
+								<li>销售联盟</li>
+								<li>京东社区</li>
+								<li>风险监测</li>
+								<li>隐私政策</li>
+								<li>京东公益</li>
+								<li>English Site</li>
+								<li>Median &amp; IR</li>
+
+							</ul>
+
+						</div>
+						<div class="fb-middle">
+							<ul>
+								<li>京公网安备 110000020000088号</li>
+								<li>京IC证070359号</li>
+								<li>互联网药品信息服务资格证编号(京)-经营性-2014-0008</li>
+								<li>新出发京零 字第大120007号</li>
+							</ul>
+							<ul>
+
+								<li>互联网出版许可证编号新出网证(京)字150号</li>
+								<li>出版物经营许可证</li>
+								<li>网络文化经营许可证京网文[2014]2148-348号</li>
+								<li>违法和不良信息举报电话 : 4006561155</li>
+							</ul>
+							<ul>
+								<li>Copyright © 2004-2018 京东JD.com 版权所有</li>
+								<li>消费者维权热线 : 4006067733 经营证照</li>
+							</ul>
+							<ul>
+								<li>Global Site </li>
+								<li>Cant Poccnn </li>
+								<li>Situs Indonesia </li>
+							</ul>
+							<ul>
+								<li>京东旗下网站 : 京东钱包</li>
+								<li> 京东云</li>
+							</ul>
+						</div>
+					</div>
+					<ul class="louceng">
+						<li>最大牌</li>
+						<li>活动</li>
+						<li>1F</li>
+						<li>2F</li>
+						<li>3F</li>
+						<li>4F</li>
+						<li>5F</li>
+						<li>6F</li>
+						<li>7F</li>
+						<li>8F</li>
+						<li><a href="#">top</a></li>
+					</ul>
+				</div>
+	</body>
+
+</html>

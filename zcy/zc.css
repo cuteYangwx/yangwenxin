@@ -1,0 +1,319 @@
+/*设置全局样式*/
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+/*给整体个宽高*/
+#wrap {
+	width: 100%;
+	height: 800px;
+	/*background: pink;*/
+}
+
+.header {
+	width: 1200px;
+	height: 110px;
+	/*background:cyan;*/
+	margin: 0 auto;
+}
+
+.header-top {
+	width: 1200px;
+	height: 110px;
+	/*background: palegoldenrod;*/
+	float: left;
+	border-bottom: 2px solid #eee;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+
+.header-top-left {
+	width: 160px;
+	height: 50px;
+	/*background: palegreen;*/
+	margin-top: 30px;
+	background: url(zcimages/icon.png) no-repeat;
+	float: left;
+}
+
+.logo-title {
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	font-size: 24px;
+	color: #333;
+	margin-top: 40px;
+}
+
+.header-top-right {
+	font-size: 16px;
+	float: right;
+	margin-top: 55px;
+	color: #999;
+}
+
+.header-top-right a {
+	color: #e22;
+}
+
+.header-main {
+	width: 1200px;
+	height: 500px;
+	/*background: paleturquoise;*/
+	float: left;
+	margin-bottom: 40px;
+}
+
+.m-zong {
+	width: 400px;
+	height: 500px;
+	/*float:left;*/
+	/*background: orchid;*/
+	margin: 0 auto;
+	position: relative;
+}
+
+.y1 {
+	float: left;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.y1 span {
+	background: ;
+	display: block;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	background-image: url(zcimages/reg-icon.png);
+	background-position: 0 -200px;
+	margin-left: 15px;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 700;
+	color: #ccc;
+	font-size: 12px;
+}
+
+.y1 p {
+	color: #3b4;
+	margin-top: 10px;
+	font-size: 12px;
+	display: block;
+}
+
+.dian1 {
+	left: 55px;
+	width: 124px;
+	background-position: 0 -100px;
+	position: absolute;
+	top: 45px;
+	height: 10px;
+	background-image: url(zcimages/reg-icon.png);
+}
+
+.y2 {
+	float: left;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 108px;
+}
+
+.y2 span {
+	margin: 0 auto;
+	display: block;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	background-image: url(zcimages/reg-icon.png);
+	background-position: -45px -200px;
+	margin-left: 15px;
+	text-align: center;
+	font-weight: 700;
+	color: #ccc;
+}
+
+.y2 p {
+	color: #999;
+	margin-top: 10px;
+	font-size: 12px;
+	display: block;
+}
+
+.dian2 {
+	left: 228px;
+	width: 124px;
+	background-position: 0 -100px;
+	position: absolute;
+	top: 45px;
+	height: 10px;
+	background-image: url(zcimages/reg-icon.png);
+}
+
+.y3 {
+	float: left;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 112px;
+}
+
+.y3 span {
+	margin: 0 auto;
+	display: block;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	background-image: url(zcimages/reg-icon.png);
+	background-position: -45px -200px;
+	margin-left: 13px;
+	text-align: center;
+	font-weight: 700;
+	color: #ccc;
+}
+
+.y3 p {
+	color: #999;
+	margin-top: 10px;
+	font-size: 12px;
+	display: block;
+}
+
+.zg {
+	width: 110px;
+	height: 52px;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	float: left;
+	margin-top: 30px;
+}
+
+.zg label {
+	padding: 0 0 0 15px;
+	cursor: pointer;
+	color: #666;
+	line-height: 52px;
+	float: left;
+}
+
+input[value=" 建议使用常用手机号"] {
+	width: 290px;
+	height: 52px;
+	float: left;
+	border: none;
+	border: 1px solid #ddd;
+	border-left: none;
+	box-sizing: border-box;
+	margin-top: 30px;
+	color: rgb(204, 204, 204);
+	margin-bottom: 20px;
+	;
+}
+
+.anniu {
+	width: 400px;
+	height: 54px;
+	border: 1px solid #ddd;
+	float: left;
+	color: #333;
+	text-align: center;
+	margin-top: 20px;
+	line-height: 54px;
+	margin-bottom: 20px;
+}
+
+.anniu1 {
+	width: 400px;
+	height: 54px;
+	float: left;
+	color: #fff;
+	text-align: center;
+	margin-top: 20px;
+	line-height: 54px;
+	margin-top: 30px;
+	background: #e2231a;
+}
+.anniu1 a{
+	color:#fff;
+}
+.anniu1:hover{
+	background: #c81623;
+}
+
+.foot-main {
+	width: 400px;
+	height: 32px;
+	/*background: orange;*/
+	float: left;
+	margin-top: 30px;
+}
+
+.foot-main-left {
+	display: inline-block;
+	margin: 4px 8px 4px 0;
+	width: 30px;
+	height: 30px;
+	background: url(zcimages/reg-icon.png) no-repeat;
+	background-position: 0 -160px;
+	float: left;
+}
+
+.foot-main span {
+	color: #666;
+	font-size: 14px;
+	line-height: 32px;
+	float: left;
+	display: inline-block;
+}
+
+.foot-main-right {
+	display: inline-block;
+	margin: 4px 8px 4px 0;
+	width: 30px;
+	height: 30px;
+	background: url(zcimages/reg-icon.png) no-repeat;
+	background-position: -40px -160px;
+	float: left;
+	margin-left: 170px;
+}
+
+.foot-main p {
+	color: #666;
+	font-size: 14px;
+	line-height: 32px;
+	float: left;
+	display: inline-block;
+}
+
+.footer {
+	clear: both;
+	width:1200px;
+	height:100px;
+	/*background:yellow;*/
+	/*float: left;*/
+	margin:0 auto;
+	font-size: 12px;
+	color: #9f9f9f;
+	text-align: center;
+}
+
+.footer-top {
+	/*margin-left: 128px;*/
+	margin-top: 30px;
+}
+
+.footer-top ul {}
+
+.footer-top ul li {
+	float: left;
+	margin-right: 29px;
+}
+
+.footer-bottom {
+	width: 100%;
+	clear: both;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+}
